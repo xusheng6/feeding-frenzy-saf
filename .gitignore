@@ -1,0 +1,19 @@
+# --- Copyrighted game material: never commit or redistribute ---
+# Feeding Frenzy 2 is (c) PopCap Games. Only the tooling and write-up here are
+# original; the game, its archive, and its extracted assets stay out of the repo.
+*.saf
+ff2.exe
+FeedingFrenzy.7z
+resource/
+
+# Binary Ninja databases (derived from the copyrighted executable)
+*.bndb
+
+# --- OS / editor / build cruft ---
+.DS_Store
+.claude/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
