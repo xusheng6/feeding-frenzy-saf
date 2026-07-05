@@ -104,7 +104,7 @@ D = 0x10325476  ->   0x9bedf4fc
 
 Four magic numbers, lifted straight out of \texttt{ff2.exe} in Binary Ninja.
 Drop them into any MD5 implementation and the digests suddenly match the ones
-stored in the original archive. That is the entire ``DRM'': a hash that is 99\%
+stored in the original archive. That is the entire trick: a hash that is 99\%
 standard and 1\% lie, betting you will reach for \texttt{hashlib} and never
 notice the initial state is off.
 
